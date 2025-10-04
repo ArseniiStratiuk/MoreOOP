@@ -1,7 +1,7 @@
 package kickstrategy;
 
 import java.util.Random;
-import characters.Character;
+import lotr.Character;
 
 public class RandomKick implements KickStrategy {
     private static final Random rand = new Random();

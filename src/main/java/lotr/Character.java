@@ -1,8 +1,7 @@
-package characters;
+package lotr;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
-
 import kickstrategy.KickStrategy;
 
 @AllArgsConstructor
@@ -29,5 +28,10 @@ public abstract class Character {
 
     public void setPower(int power) {
         this.power = power > 0 ? power : 0;
+    }
+
+    @Override
+    public String toString() {
+        return this.getClass().getSimpleName() + "{hp=" + hp + ", power=" + power + "}";
     }
 }

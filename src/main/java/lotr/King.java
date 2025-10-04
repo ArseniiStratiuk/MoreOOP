@@ -1,10 +1,9 @@
-package characters;
-import java.util.Random;
+package lotr;
 
+import java.util.Random;
 import kickstrategy.RandomKick;
 
-public class King extends Character{
-
+public class King extends Character {
     private static final Random rand = new Random();
 
     public King() {
